@@ -42,7 +42,7 @@ export default function Home() {
           className="flex hover:underline hover:text-blue-500"
         >
           <p> See more </p>
-          <div className="flex flex-col justify-center items-center">
+          <div className="hidden md:block "><div className="flex flex-col justify-center items-center">
             <svg
               className="w-5 h-5  text-gray-800 dark:text-white hover:text-blue-400"
               aria-hidden="true"
@@ -58,6 +58,7 @@ export default function Home() {
                 d="M1 5h12m0 0L9 1m4 4L9 9"
               />
             </svg>
+          </div>
           </div>
         </Link>
       </div>
