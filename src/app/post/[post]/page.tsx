@@ -87,12 +87,12 @@ export default function Posts({ params }: { params: { post: string } }) {
   }
   return (
     <div className="flex flex-col justify-center items-center bg-zinc-100 text-black gap-1 md:gap-5">
-      <div className="h-40 w-2/3 relative flex justify-center items-center mt-20">
+      <div className="md:h-80 h-40 w-2/3 relative flex justify-center items-center mt-24">
         <Image
           src={post.src}
           alt={"image"}
           fill
-          className="object-contain rounded-md"
+          className="md:object-fill object-contain rounded-md"
         />
       </div>
       <div className="flex flex-col items-center bg-zinc-200">
