@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="">
+    <div className="bg-white text-black">
       <div className="h-screen w-full relative">
         <Image src="/pic1.jpg" alt="hero image" fill className="object-cover" />
       </div>
@@ -42,9 +42,23 @@ export default function Home() {
           className="flex hover:underline hover:text-blue-500"
         >
           <p> See more </p>
-          <div className="flex flex-col justify-center items-center"><svg className="w-5 h-5  text-gray-800 dark:text-white hover:text-blue-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-</svg></div>
+          <div className="flex flex-col justify-center items-center">
+            <svg
+              className="w-5 h-5  text-gray-800 dark:text-white hover:text-blue-400"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 14 10"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M1 5h12m0 0L9 1m4 4L9 9"
+              />
+            </svg>
+          </div>
         </Link>
       </div>
 

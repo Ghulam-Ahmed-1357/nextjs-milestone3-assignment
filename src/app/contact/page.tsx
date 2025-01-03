@@ -3,7 +3,7 @@ import Herosection from "../components/hero";
 import Image from "next/image";
 export default function Contact() {
   return (
-    <div className="">
+    <div className="bg-white text-black">
       <div>
         <Herosection current_page="Contact" />
       </div>
