@@ -6,10 +6,10 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className="bg-white text-black">
-      <div className="h-60 md:h-screen w-full relative">
+      <div className="h-60 md:h-screen mt-7 md:mt-0 w-full relative">
         <Image src="/pic1.jpg" alt="hero image" fill className="object-contain md:object-cover" />
       </div>
-      <div className="Posts Section mt-10 flex justify-around">
+      <div className="Posts Section mt-1 md:mt-10 flex justify-around">
         <div className="w-1/3 md:w-1/4">
           <NormalPost
             id="1"
@@ -36,7 +36,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex justify-center items-center text-black mt-10 text-[20px]">
+      <div className="flex justify-center items-center text-black mt-5 md:mt-10 text-[20px]">
         <Link
           href={"/blogs"}
           className="flex hover:underline hover:text-blue-500"
