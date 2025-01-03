@@ -82,7 +82,7 @@ export default function Posts({ params }: { params: { post: string } }) {
   const post = postsData.find((p) => p.id === params.post);
   if (!post) {
     return (
-      <div className="flex justify-center items-center">Post not found!</div>
+      <div className="flex justify-center items-center bg-white text-black">Post not found!</div>
     );
   }
   return (
