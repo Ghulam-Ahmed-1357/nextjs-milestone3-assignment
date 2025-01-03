@@ -36,15 +36,15 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex justify-center items-center text-black mt-5 md:mt-10 text-[20px]">
+      <div className="flex justify-center items-center text-black mt-5 md:mt-10">
         <Link
           href={"/blogs"}
           className="flex hover:underline hover:text-blue-500"
         >
-          <p> See more </p>
-          <div className="hidden md:block mt-1"><div className="flex flex-col justify-center items-center">
+          <p className="text-[12px] md:text-[18px]"> See more </p>
+          <div className="mt-1 ml-[2px] md:mt-1"><div className="flex flex-col justify-center items-center">
             <svg
-              className="w-5 h-5  text-gray-800 dark:text-white hover:text-blue-400"
+              className="h-3 w-3 md:w-4 md:h-4 text-gray-800 dark:text-white hover:text-blue-400"
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               fill="none"

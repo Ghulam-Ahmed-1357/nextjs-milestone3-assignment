@@ -18,7 +18,7 @@ export default function SidePost(props: {
           </div>
           <div className="h-10 font-normal leading-4 text-[12px] md:text-[16px] md:leading-5 pt-3 lg:pt-1 flex-wrap ">
             <span className="block sm:hidden">
-              {props.description.slice(0, 130)}
+              {props.description.slice(0, 117)}
             </span>
             <span className="hidden sm:block md:hidden">
               {props.description.slice(0, 100)}

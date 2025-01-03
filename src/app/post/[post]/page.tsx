@@ -87,7 +87,7 @@ export default function Posts({ params }: { params: { post: string } }) {
   }
   return (
     <div className="flex flex-col justify-center items-center bg-zinc-100 text-black gap-1 md:gap-5">
-      <div className="md:h-80 h-40 w-2/3 relative flex justify-center items-center mt-24">
+      <div className="md:h-80 h-40 w-2/3 relative flex justify-center items-center mt-24 mb-3">
         <Image
           src={post.src}
           alt={"image"}
@@ -96,8 +96,8 @@ export default function Posts({ params }: { params: { post: string } }) {
         />
       </div>
       <div className="flex flex-col items-center bg-zinc-200">
-        <div className="font-bold text-[26px] leading-5 pt-6">{post.title}</div>
-        <div className="font-normal leading-5 pt-3 mx-3 my-3">
+        <div className="font-bold text-[26px] leading-5 pt-3">{post.title}</div>
+        <div className="font-normal leading-5 mx-3 my-4">
           {post.description}
         </div>
       </div>

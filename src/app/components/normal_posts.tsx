@@ -33,7 +33,7 @@ export default function NormalPost(props: {
           <div className="pt-11 md:pt-1 mt-2 pl-1">
             <Link
               href={`/post/${props.id}`}
-              className="text-blue-500 hover:underline"
+              className="text-blue-500 hover:underline text-[12px] md:text-[16px]"
             >
               Read More
             </Link>

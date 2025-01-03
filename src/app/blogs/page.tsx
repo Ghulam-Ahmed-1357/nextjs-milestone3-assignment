@@ -11,7 +11,7 @@ export default function Blogs() {
       </div>
 
       <div className="flex">
-        <div className="Side Posts flex flex-col ml-5 w-full sm:w-auto">
+        <div className="Side Posts flex flex-col ml-5 w-full sm:w-auto mr-5 md:mr-0">
           <SidePost
             id="s1"
             src="/blog-pic4.jpg"
