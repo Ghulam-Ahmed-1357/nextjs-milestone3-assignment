@@ -8,7 +8,7 @@ export default function SidePost(props: {
 }) {
   return (
     <div className="mt-10 bg-zinc-200 text-black">
-      <div className="flex gap-2 ">
+      <Link href={`/post/${props.id}`}><div className="flex gap-2 ">
         <div className="rounded-full h-32 w-1/3 relative">
           <Image src={props.src} alt="image" fill className="object-cover " />
         </div>
@@ -36,7 +36,7 @@ export default function SidePost(props: {
             </div>
           </div>
         </div>
-      </div>
+      </div></Link>
     </div>
   );
 }
