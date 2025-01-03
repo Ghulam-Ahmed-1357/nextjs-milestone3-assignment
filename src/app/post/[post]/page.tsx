@@ -87,7 +87,7 @@ export default function Posts({ params }: { params: { post: string } }) {
   }
   return (
     <div className="flex flex-col justify-center items-center bg-zinc-100 text-black gap-1 md:gap-5">
-      <div className="h-40 w-2/3 relative flex justify-center items-center mt-14">
+      <div className="h-40 w-2/3 relative flex justify-center items-center mt-20">
         <Image
           src={post.src}
           alt={"image"}

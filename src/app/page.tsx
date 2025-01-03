@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className="bg-white text-black">
       <div className="h-screen w-full relative">
-        <Image src="/pic1.jpg" alt="hero image" fill className="object-cover" />
+        <Image src="/pic1.jpg" alt="hero image" fill className="object-contain md:object-cover" />
       </div>
       <div className="Posts Section mt-10 flex justify-around">
         <div className="w-1/3 md:w-1/4">
