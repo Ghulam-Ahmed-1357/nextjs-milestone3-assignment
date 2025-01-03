@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className="bg-white text-black">
-      <div className="h-1/2 md:h-screen w-full relative">
+      <div className="h-48 md:h-screen w-full relative">
         <Image src="/pic1.jpg" alt="hero image" fill className="object-contain md:object-cover" />
       </div>
       <div className="Posts Section mt-10 flex justify-around">
